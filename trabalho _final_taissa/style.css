@@ -1,0 +1,104 @@
+body {
+    background-color: #eadef7;
+    color: #2e1a47;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu {
+    background-color: #2e1a47;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 30px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links a:focus, button:focus, input:focus, select:focus {
+    outline: 3px solid #8352c9;
+}
+
+.banner {
+    background-color: #572d96;
+    color: white;
+    padding: 60px 20px;
+}
+
+.secao {
+    padding: 40px 20px;
+    border-bottom: 2px dashed #2e1a47;
+}
+
+.caixa-servico {
+    background-color: white;
+    border: 2px solid #2e1a47;
+    margin: 15px auto;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.dedo {
+    width: 100px;
+    height: 150px;
+    background-color: #ffd1b3;
+    margin: 20px auto;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+}
+
+#unha-desenho {
+    width: 60px;
+    height: 80px;
+    background-color: white;
+    border-radius: 15px 15px 5px 5px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border: 1px solid #000;
+}
+
+.botoes-cores {
+    margin-top: 15px;
+}
+
+.btn-cor {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.btn-enviar {
+    background-color: #2e1a47;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #572d96;
+}
+
+.rodape {
+    background-color: #2e1a47;
+    color: white;
+    padding: 15px;
+    font-size: 12px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site da Everlume - Unhas e Cuidado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="menu">
+        <h1 class="logo">EVERLUME</h1>
+        <nav class="links">
+            <a href="#inicio">Início</a> | 
+            <a href="#servicos">Serviços</a> | 
+            <a href="#simulador">Simulador</a> | 
+            <a href="#agendar">Agendamento</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="banner">
+            <h2>Seu Brilho de volta pra você<!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+            </head>
+            <body>
+                
+            </body>
+            </html></h2>
+            <p>O melhor salão de unhas roxas da região!</p>
+        </section>
+
+        <section id="servicos" class="secao">
+            <h3>Nossos Serviços</h3>
+            
+            <div class="caixa-servico">
+                <h4>Manicure</h4>
+                <p>Corte, lixamento e esmaltação perfeita das mãos.</p>
+            </div>
+
+            <div class="caixa-servico">
+                <h4>Pedicure</h4>
+                <p>Cuidado completo para as unhas e pele dos pés.</p>
+            </div>
+
+            <div class="caixa-servico">
+                <h4>Spa de Pés</h4>
+                <p>Relaxamento com esfoliação e hidratação profunda.</p>
+            </div>
+        </section>
+
+        </section>
+
+        <section class="secao" style="background-color: #2e1a47; color: white;">
+            <h3>O que as clientes acham</h3>
+            
+            <div id="texto-depoimento">
+                "Amei o atendimento, minhas unhas ficaram lindas!" - Ana Maria
+            </div>
+            
+            <br>
+            <button onclick="mostrarDepoimento1()" aria-label="Ver depoimento 1">1</button>
+            <button onclick="mostrarDepoimento2()" aria-label="Ver depoimento 2">2</button>
+        </section>
+
+        <section id="agendar" class="secao">
+            <h3>Faça seu Agendamento</h3>
+            <form onsubmit="salvarAgendamento(event)">
+                <label for="nome-cliente">Seu Nome:</label><br>
+                <input type="text" id="nome-cliente" required><br><br>
+
+                <label for="opcao-servico">Escolha o serviço:</label><br>
+                <select id="opcao-servico">
+                    <option>Manicure</option>
+                    <option>Pedicure</option>
+                    <option>Spa de Pés</option>
+                </select><br><br>
+
+                <button type="submit" class="btn-enviar">Enviar Pedido ✨</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2026 - Site da Everlume feito para o trabalho da escola.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
